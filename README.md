@@ -1,2 +1,3 @@
 # redirect-page-js
-Redirect from a page to another using JavaScript with a countdown timer
+
+Redirect from a bootstrap webpage to another website using JavaScript with a countdown timer
