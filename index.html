@@ -16,12 +16,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/assets/img/favicons/safari-pinned-tab.svg" color="#">
-    <link rel="icon" href="/assets/img/favicons/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/favicons/apple-touch.png" sizes="180x180">
+    <link rel="icon" href="/assets/favicons/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/assets/favicons/favicon-16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/assets/favicons/manifest.json">
+    <link rel="mask-icon" href="/assets/favicons/safari.svg" color="#fff">
+    <link rel="icon" href="/assets/favicons/favicon.ico">
     <meta name="theme-color" content="#fff">
     
     <style>
@@ -44,10 +44,14 @@
     <!-- JavaScript part -->
     <script type="text/javascript">
       
-        var seconds = 10;
-        var redirectDomain = "anotherwebsite.com";
-        var redirectUrl = "https://" + redirectDomain;
+//__________Edit the number of seconds it takes to redirect and the redirect URL below______________
       
+        var seconds = 10;
+        var redirectDomain = "theafricanboss.com";
+      
+//__________Edit the number of seconds it takes to redirect and the redirect URL above______________
+      
+        var redirectUrl = "https://" + redirectDomain;
         var page = document.getElementById('redirect');;
         page.innerHTML += `
                     <div class="text-center">
