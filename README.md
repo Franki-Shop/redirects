@@ -9,7 +9,7 @@ var redirectDomain = "theafricanboss.com";
 
 Below is a screenshot of how it looks like without the stroke.
 
-*The black stroke around the page was used to show the page is vertically and horizontally centered in the page using Bootstrap.
+*The black stroke around the page was used to show the page is vertically and horizontally centered in the page using Bootstrap.*
 
 
 ![Redirect Page JS screenshot](https://github.com/theafricanboss/redirect-page-js/blob/main/redirect-page-js.jpg)
