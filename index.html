@@ -46,8 +46,8 @@
       
 //__________Edit the number of seconds it takes to redirect and the redirect URL below______________
       
-        var seconds = 10;
-        var redirectDomain = "theafricanboss.com";
+        var seconds = 1;
+        var redirectDomain = "";
       
 //__________Edit the number of seconds it takes to redirect and the redirect URL above______________
       
@@ -56,15 +56,15 @@
         page.innerHTML += `
                     <div class="text-center">
                         <h3>
-                          Redirecting to <a href="${redirectUrl}">${redirectDomain}</a> in <span id="countdown">${seconds}</span> seconds
+                          Please wait...
                         </h3>
-                        <p>You can also <a href="${redirectUrl}">redirect here manually</a></p>
+                      
                     </div>
                 `;
         
         function countdown() {
             seconds = seconds - 1;
-            if (seconds < 0) {
+            if (seconds < 1) {
                 // Chnage your redirection link here
                 window.location = redirectUrl;
             } else {
